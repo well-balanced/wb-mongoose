@@ -31,13 +31,9 @@ function init() {
 
   runCommand('git', ['clone', packageJson.repository.url, projectName])
     .then(() => {
-      console.log(packageJson.repository.url, projectName)
       return runCommand('rm', ['-rf', `${projectName}/.git`])
     })
     .then(() => {
-      console.log(
-        'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
-      )
       return executeNodeScript(
         {
           cwd: process.cwd(),
