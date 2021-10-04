@@ -15,3 +15,7 @@ $ npx wb-mongoose [your-project-name]
 
 [npm-image]: https://img.shields.io/npm/v/wb-mongoose.svg
 [npm-url]: https://npmjs.org/package/wb-mongoose
+
+
+## License
+ISC
