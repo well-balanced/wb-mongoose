@@ -1,0 +1,29 @@
+{
+  "name": "wb-mongoose",
+  "version": "0.1.0",
+  "bin": {
+    "wb-mongoose": "index.js"
+  },
+  "description": "express + mongoose skeleton for myself",
+  "main": "index.js",
+  "keywords": [
+    "skeleton",
+    "express",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/well-balanced/wb-mongoose-template"
+  },
+  "author": "well-balanced",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/well-balanced/wb-mongoose/issues"
+  },
+  "homepage": "https://github.com/well-balanced/wb-mongoose#readme",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "commander": "4.1.1",
+    "cross-spawn": "7.0.3"
+  }
+}
