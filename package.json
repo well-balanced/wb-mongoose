@@ -1,10 +1,10 @@
 {
   "name": "wb-mongoose",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "wb-mongoose": "index.js"
   },
-  "description": "express + mongoose skeleton for myself",
+  "description": "npx script to generate express + mongoose template",
   "main": "index.js",
   "keywords": [
     "skeleton",
