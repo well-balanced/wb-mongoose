@@ -58,8 +58,18 @@ function init() {
     })
     .then(() => {
       console.log('😄 setup is successfully completed 😄')
-      console.log('run commands')
-      console.log(chalk.green(`$ cd ${projectName} && npm run dev`))
+      const welcomeMessage = `${chalk.cyan.bold(
+        `\nThanks for using wb-mongoose 😊`,
+      )}\n\n${chalk.white.bold(
+        `run commands\n$ cd ${projectName} && npm i && touch .env`,
+      )}\n\n${chalk.cyan.bold(
+        `please check ${chalk.black.bgWhiteBright.bold(
+          '.env.example',
+        )} and replace to your ${chalk.black.bgWhiteBright.bold(
+          '.env',
+        )} file 🚀\ne.g., PORT, MONGODB_HOST... 🔨\n`,
+      )}`
+      console.log(welcomeMessage)
     })
     .catch(e => {
       console.log(e)
