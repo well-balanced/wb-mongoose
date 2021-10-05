@@ -1,6 +1,6 @@
 {
   "name": "wb-mongoose",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "bin": {
     "wb-mongoose": "index.js"
   },
