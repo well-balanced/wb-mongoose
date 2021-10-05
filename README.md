@@ -1,5 +1,5 @@
 # wb-mongoose
-npx script to generate express + mongoose template
+npx script to generate TypeScript + express + mongoose template
 
 [![NPM Version][npm-image]][npm-url]
 
