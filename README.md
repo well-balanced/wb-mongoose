@@ -18,4 +18,4 @@ $ npx wb-mongoose [your-project-name]
 
 
 ## License
-ISC
+MIT
