@@ -1,6 +1,6 @@
 {
   "name": "wb-mongoose",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "bin": {
     "wb-mongoose": "index.js"
   },
@@ -16,7 +16,7 @@
     "url": "https://github.com/well-balanced/wb-mongoose-template"
   },
   "author": "well-balanced",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/well-balanced/wb-mongoose/issues"
   },
