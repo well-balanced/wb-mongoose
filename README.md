@@ -1,4 +1,5 @@
 # wb-mongoose
+start your project quickly. 
 npx script to generate TypeScript + express + mongoose template
 
 [![NPM Version][npm-image]][npm-url]
